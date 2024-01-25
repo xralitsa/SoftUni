@@ -6,7 +6,9 @@ namespace Exercise_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World 3!");
+            double britishPounds = double.Parse(Console.ReadLine());
+            double usDollars = britishPounds * 1.31d;
+            Console.WriteLine($"{usDollars:f3}");
         }
     }
 }
