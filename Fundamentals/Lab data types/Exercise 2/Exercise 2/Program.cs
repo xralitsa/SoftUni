@@ -6,7 +6,9 @@ namespace Exercise_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World Rali!!!");
+            double meters = double.Parse(Console.ReadLine());
+            double kilometers = meters / 1000;
+            Console.WriteLine("{0:0.00}", kilometers);
         }
     }
 }
