@@ -6,7 +6,7 @@ namespace Exercise_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World Rali!");
+            Console.WriteLine("Hello World Rali!!!");
         }
     }
 }
