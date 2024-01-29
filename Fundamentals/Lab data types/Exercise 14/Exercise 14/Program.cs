@@ -14,8 +14,8 @@ namespace Exercise_14
                 int digit = number % 10;
                 sum += digit;
                 number = number / 10;
-
             }
+            
             Console.WriteLine(sum);
         }
     }
