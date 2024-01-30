@@ -17,7 +17,11 @@ namespace Exercise_21
                 spiceProductionPerDay -= 10;
             }
 
-            spiceReserve -= 26;
+            if (spiceReserve >= 26)
+            {
+                spiceReserve -= 26;
+            }
+
             Console.WriteLine($"{workingDays}\n{spiceReserve}");
 
         }
