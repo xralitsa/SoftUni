@@ -18,6 +18,7 @@ namespace Exercise_23
                  int snowballTime = int.Parse(Console.ReadLine());
                  int snowballQuality = int.Parse(Console.ReadLine());
 
+
                  long newSnowballValue = (long)Math.Pow(snowballSnow / snowballTime, snowballQuality);
 
                 if (newSnowballValue > bestSnowballValue)
@@ -26,7 +27,7 @@ namespace Exercise_23
                     bestSnowballSnow = snowballSnow;
                     bestSnowballTime = snowballTime;
                     bestSnowballQuality = snowballQuality;
-
+                    
                 }
             }
 
